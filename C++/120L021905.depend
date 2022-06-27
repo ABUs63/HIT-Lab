@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1626232729 source:c:\users\langlang\desktop\120l021905\main.cpp
+	<iostream>
+	<string>
+	<cctype>
+	<stdlib.h>
+
+1627113141 source:c:\users\langlang\desktop\c++120l021905\main.cpp
+	<iostream>
+	<iomanip>
+	<cstring>
+	<stdlib.h>
+

@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1609046185 source:c:\users\langlang\desktop\高级语言程序设计大作业\实验大作业\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1609307543 source:c:\users\langlang\desktop\120l021905\实验大作业\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	<mmsystem.h>
+
