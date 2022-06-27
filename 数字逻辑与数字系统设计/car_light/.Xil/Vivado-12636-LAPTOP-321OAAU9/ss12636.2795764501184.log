@@ -1,0 +1,7 @@
+srcscan starts
+INFO: analyzing module car_light (VERI-9002)
+Listing tops:
+VeriTop library:xil_defaultlib mod:car_light
+END of tops
+C:/Users/Zhang/Desktop/car_light/car_light.srcs/sources_1/new/car_light.v(23): INFO: compiling module 'car_light_default' (VERI-1018)
+srcscan exits with return value 0

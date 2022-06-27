@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Wed Oct 27 14:16:45 2021" VIVADOVERSION="2020.1">
+
+  <SYSTEMINFO ARCH="artix7" DEVICE="7a35t" NAME="four_beat" PACKAGE="csg324" SPEEDGRADE="-1"/>
+
+  <EXTERNALPORTS>
+    <PORT CLKFREQUENCY="10000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="D_trigger_0" PORT="clk"/>
+        <CONNECTION INSTANCE="D_trigger_2" PORT="clk"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="RST" POLARITY="ACTIVE_HIGH" SIGIS="rst" SIGNAME="External_Ports_RST">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="D_trigger_0" PORT="rst"/>
+        <CONNECTION INSTANCE="D_trigger_2" PORT="rst"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="w0" SIGIS="undef" SIGNAME="getw_0_w0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="getw_0" PORT="w0"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="w1" SIGIS="undef" SIGNAME="getw_0_w1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="getw_0" PORT="w1"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="w2" SIGIS="undef" SIGNAME="getw_0_w2">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="getw_0" PORT="w2"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="w3" SIGIS="undef" SIGNAME="getw_0_w3">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="getw_0" PORT="w3"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE COREREVISION="1" FULLNAME="/D_trigger_0" HWVERSION="1.0" INSTANCE="D_trigger_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="D_trigger" VLNV="xilinx.com:module_ref:D_trigger:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="four_beat_D_trigger_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="O" NAME="Q" SIGIS="undef" SIGNAME="D_trigger_0_Q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="getXOR_0" PORT="y2"/>
+            <CONNECTION INSTANCE="getw_0" PORT="Q2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT CLKFREQUENCY="10000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="rst" POLARITY="ACTIVE_HIGH" SIGIS="rst" SIGNAME="External_Ports_RST">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="RST"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="D" SIGIS="undef" SIGNAME="getXOR_0_x">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="getXOR_0" PORT="x"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/D_trigger_2" HWVERSION="1.0" INSTANCE="D_trigger_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="D_trigger" VLNV="xilinx.com:module_ref:D_trigger:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="four_beat_D_trigger_2_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="O" NAME="Q" SIGIS="undef" SIGNAME="D_trigger_2_Q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="getXOR_0" PORT="y1"/>
+            <CONNECTION INSTANCE="getNOT_0" PORT="y"/>
+            <CONNECTION INSTANCE="getw_0" PORT="Q1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT CLKFREQUENCY="10000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="rst" POLARITY="ACTIVE_HIGH" SIGIS="rst" SIGNAME="External_Ports_RST">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="RST"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="D" SIGIS="undef" SIGNAME="getNOT_0_x">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="getNOT_0" PORT="x"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/getNOT_0" HWVERSION="1.0" INSTANCE="getNOT_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="getNOT" VLNV="xilinx.com:module_ref:getNOT:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="four_beat_getNOT_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="O" NAME="x" SIGIS="undef" SIGNAME="getNOT_0_x">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="D_trigger_2" PORT="D"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="y" SIGIS="undef" SIGNAME="D_trigger_2_Q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="D_trigger_2" PORT="Q"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/getXOR_0" HWVERSION="1.0" INSTANCE="getXOR_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="getXOR" VLNV="xilinx.com:module_ref:getXOR:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="four_beat_getXOR_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="O" NAME="x" SIGIS="undef" SIGNAME="getXOR_0_x">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="D_trigger_0" PORT="D"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="y1" SIGIS="undef" SIGNAME="D_trigger_2_Q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="D_trigger_2" PORT="Q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="y2" SIGIS="undef" SIGNAME="D_trigger_0_Q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="D_trigger_0" PORT="Q"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/getw_0" HWVERSION="1.0" INSTANCE="getw_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="getw" VLNV="xilinx.com:module_ref:getw:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="four_beat_getw_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="O" NAME="w0" SIGIS="undef" SIGNAME="getw_0_w0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="w0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="w1" SIGIS="undef" SIGNAME="getw_0_w1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="w1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="w2" SIGIS="undef" SIGNAME="getw_0_w2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="w2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="w3" SIGIS="undef" SIGNAME="getw_0_w3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="w3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="Q2" SIGIS="undef" SIGNAME="D_trigger_0_Q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="D_trigger_0" PORT="Q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="Q1" SIGIS="undef" SIGNAME="D_trigger_2_Q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="D_trigger_2" PORT="Q"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>

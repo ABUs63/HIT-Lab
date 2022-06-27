@@ -1,0 +1,16 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+C:/Users/LANGLANG/Desktop/vivado/four_beat/four_beat.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+C:/Users/LANGLANG/Desktop/vivado/four_beat/four_beat.srcs/sim_1/new/test.v,1635314999,verilog,,,,test,,,,,,,,
+C:/Users/LANGLANG/Desktop/vivado/four_beat/four_beat.srcs/sources_1/bd/four_beat/ip/four_beat_D_trigger_0_0/sim/four_beat_D_trigger_0_0.v,1635315405,verilog,,C:/Users/LANGLANG/Desktop/vivado/four_beat/four_beat.srcs/sources_1/bd/four_beat/ip/four_beat_D_trigger_2_0/sim/four_beat_D_trigger_2_0.v,,four_beat_D_trigger_0_0,,,,,,,,
+C:/Users/LANGLANG/Desktop/vivado/four_beat/four_beat.srcs/sources_1/bd/four_beat/ip/four_beat_D_trigger_2_0/sim/four_beat_D_trigger_2_0.v,1635315405,verilog,,C:/Users/LANGLANG/Desktop/vivado/four_beat/four_beat.srcs/sim_1/new/test.v,,four_beat_D_trigger_2_0,,,,,,,,
+C:/Users/LANGLANG/Desktop/vivado/four_beat/four_beat.srcs/sources_1/bd/four_beat/ip/four_beat_getNOT_0_1/sim/four_beat_getNOT_0_1.v,1635314497,verilog,,C:/Users/LANGLANG/Desktop/vivado/four_beat/four_beat.srcs/sources_1/bd/four_beat/ip/four_beat_getw_0_0/sim/four_beat_getw_0_0.v,,four_beat_getNOT_0_1,,,,,,,,
+C:/Users/LANGLANG/Desktop/vivado/four_beat/four_beat.srcs/sources_1/bd/four_beat/ip/four_beat_getXOR_0_0/sim/four_beat_getXOR_0_0.v,1635314497,verilog,,C:/Users/LANGLANG/Desktop/vivado/four_beat/four_beat.srcs/sources_1/bd/four_beat/ip/four_beat_getNOT_0_1/sim/four_beat_getNOT_0_1.v,,four_beat_getXOR_0_0,,,,,,,,
+C:/Users/LANGLANG/Desktop/vivado/four_beat/four_beat.srcs/sources_1/bd/four_beat/ip/four_beat_getw_0_0/sim/four_beat_getw_0_0.v,1635314497,verilog,,C:/Users/LANGLANG/Desktop/vivado/four_beat/four_beat.srcs/sources_1/bd/four_beat/sim/four_beat.v,,four_beat_getw_0_0,,,,,,,,
+C:/Users/LANGLANG/Desktop/vivado/four_beat/four_beat.srcs/sources_1/bd/four_beat/sim/four_beat.v,1635315405,verilog,,C:/Users/LANGLANG/Desktop/vivado/four_beat/four_beat.srcs/sources_1/bd/four_beat/ip/four_beat_D_trigger_0_0/sim/four_beat_D_trigger_0_0.v,,four_beat,,,,,,,,
+C:/Users/LANGLANG/Desktop/vivado/four_beat/four_beat.srcs/sources_1/new/D_trigger.v,1635315038,verilog,,C:/Users/LANGLANG/Desktop/vivado/four_beat/four_beat.srcs/sources_1/bd/four_beat/ip/four_beat_getXOR_0_0/sim/four_beat_getXOR_0_0.v,,D_trigger,,,,,,,,
+C:/Users/LANGLANG/Desktop/vivado/four_beat/four_beat.srcs/sources_1/new/getNOT.v,1635313437,verilog,,C:/Users/LANGLANG/Desktop/vivado/four_beat/four_beat.srcs/sources_1/new/getw.v,,getNOT,,,,,,,,
+C:/Users/LANGLANG/Desktop/vivado/four_beat/four_beat.srcs/sources_1/new/getXOR.v,1635313345,verilog,,C:/Users/LANGLANG/Desktop/vivado/four_beat/four_beat.srcs/sources_1/new/getNOT.v,,getXOR,,,,,,,,
+C:/Users/LANGLANG/Desktop/vivado/four_beat/four_beat.srcs/sources_1/new/getw.v,1635314027,verilog,,C:/Users/LANGLANG/Desktop/vivado/four_beat/four_beat.srcs/sources_1/new/D_trigger.v,,getw,,,,,,,,

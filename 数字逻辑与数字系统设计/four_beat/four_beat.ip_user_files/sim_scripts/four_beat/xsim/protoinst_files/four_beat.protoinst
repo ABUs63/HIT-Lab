@@ -1,0 +1,9 @@
+{
+	"version": "1.0",
+	"modules": {
+		"four_beat": {
+			"proto_instances": {
+			}
+		}
+	}
+}

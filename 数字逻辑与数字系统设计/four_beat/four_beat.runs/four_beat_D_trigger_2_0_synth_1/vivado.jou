@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Oct 27 14:16:58 2021
+# Process ID: 10664
+# Current directory: C:/Users/LANGLANG/Desktop/vivado/four_beat/four_beat.runs/four_beat_D_trigger_2_0_synth_1
+# Command line: vivado.exe -log four_beat_D_trigger_2_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source four_beat_D_trigger_2_0.tcl
+# Log file: C:/Users/LANGLANG/Desktop/vivado/four_beat/four_beat.runs/four_beat_D_trigger_2_0_synth_1/four_beat_D_trigger_2_0.vds
+# Journal file: C:/Users/LANGLANG/Desktop/vivado/four_beat/four_beat.runs/four_beat_D_trigger_2_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source four_beat_D_trigger_2_0.tcl -notrace

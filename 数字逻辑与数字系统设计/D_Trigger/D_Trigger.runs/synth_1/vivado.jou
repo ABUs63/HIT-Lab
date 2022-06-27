@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Oct 27 13:14:06 2021
+# Process ID: 5196
+# Current directory: C:/Users/LANGLANG/Desktop/vivado/D_Trigger/D_Trigger.runs/synth_1
+# Command line: vivado.exe -log d_trigger.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source d_trigger.tcl
+# Log file: C:/Users/LANGLANG/Desktop/vivado/D_Trigger/D_Trigger.runs/synth_1/d_trigger.vds
+# Journal file: C:/Users/LANGLANG/Desktop/vivado/D_Trigger/D_Trigger.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source d_trigger.tcl -notrace

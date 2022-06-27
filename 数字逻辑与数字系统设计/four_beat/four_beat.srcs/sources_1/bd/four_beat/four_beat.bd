@@ -1,0 +1,301 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x9A3B7953BF9400F0",
+      "device": "xc7a35tcsg324-1",
+      "name": "four_beat",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2020.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "getXOR_0": "",
+      "getNOT_0": "",
+      "getw_0": "",
+      "D_trigger_0": "",
+      "D_trigger_2": ""
+    },
+    "ports": {
+      "clk": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "ASSOCIATED_RESET": {
+            "value": "RST",
+            "value_src": "default"
+          },
+          "CLK_DOMAIN": {
+            "value": "four_beat_clk",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "10000000"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.000",
+            "value_src": "default"
+          }
+        }
+      },
+      "RST": {
+        "type": "rst",
+        "direction": "I",
+        "parameters": {
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "POLARITY": {
+            "value": "ACTIVE_HIGH"
+          }
+        }
+      },
+      "w0": {
+        "direction": "O"
+      },
+      "w1": {
+        "direction": "O"
+      },
+      "w2": {
+        "direction": "O"
+      },
+      "w3": {
+        "direction": "O"
+      }
+    },
+    "components": {
+      "getXOR_0": {
+        "vlnv": "xilinx.com:module_ref:getXOR:1.0",
+        "xci_name": "four_beat_getXOR_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "getXOR",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "x": {
+            "direction": "O"
+          },
+          "y1": {
+            "direction": "I"
+          },
+          "y2": {
+            "direction": "I"
+          }
+        }
+      },
+      "getNOT_0": {
+        "vlnv": "xilinx.com:module_ref:getNOT:1.0",
+        "xci_name": "four_beat_getNOT_0_1",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "getNOT",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "x": {
+            "direction": "O"
+          },
+          "y": {
+            "direction": "I"
+          }
+        }
+      },
+      "getw_0": {
+        "vlnv": "xilinx.com:module_ref:getw:1.0",
+        "xci_name": "four_beat_getw_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "getw",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "w0": {
+            "direction": "O"
+          },
+          "w1": {
+            "direction": "O"
+          },
+          "w2": {
+            "direction": "O"
+          },
+          "w3": {
+            "direction": "O"
+          },
+          "Q2": {
+            "direction": "I"
+          },
+          "Q1": {
+            "direction": "I"
+          }
+        }
+      },
+      "D_trigger_0": {
+        "vlnv": "xilinx.com:module_ref:D_trigger:1.0",
+        "xci_name": "four_beat_D_trigger_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "D_trigger",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "Q": {
+            "direction": "O"
+          },
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "rst",
+                "value_src": "constant"
+              },
+              "CLK_DOMAIN": {
+                "value": "four_beat_clk",
+                "value_src": "default_prop"
+              },
+              "FREQ_HZ": {
+                "value": "10000000",
+                "value_src": "user_prop"
+              }
+            }
+          },
+          "rst": {
+            "type": "rst",
+            "direction": "I",
+            "parameters": {
+              "POLARITY": {
+                "value": "ACTIVE_HIGH",
+                "value_src": "user_prop"
+              }
+            }
+          },
+          "D": {
+            "direction": "I"
+          }
+        }
+      },
+      "D_trigger_2": {
+        "vlnv": "xilinx.com:module_ref:D_trigger:1.0",
+        "xci_name": "four_beat_D_trigger_2_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "D_trigger",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "Q": {
+            "direction": "O"
+          },
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "rst",
+                "value_src": "constant"
+              },
+              "CLK_DOMAIN": {
+                "value": "four_beat_clk",
+                "value_src": "default_prop"
+              },
+              "FREQ_HZ": {
+                "value": "10000000",
+                "value_src": "user_prop"
+              }
+            }
+          },
+          "rst": {
+            "type": "rst",
+            "direction": "I",
+            "parameters": {
+              "POLARITY": {
+                "value": "ACTIVE_HIGH",
+                "value_src": "user_prop"
+              }
+            }
+          },
+          "D": {
+            "direction": "I"
+          }
+        }
+      }
+    },
+    "nets": {
+      "getw_0_w0": {
+        "ports": [
+          "getw_0/w0",
+          "w0"
+        ]
+      },
+      "getw_0_w1": {
+        "ports": [
+          "getw_0/w1",
+          "w1"
+        ]
+      },
+      "getw_0_w2": {
+        "ports": [
+          "getw_0/w2",
+          "w2"
+        ]
+      },
+      "getw_0_w3": {
+        "ports": [
+          "getw_0/w3",
+          "w3"
+        ]
+      },
+      "clk_1": {
+        "ports": [
+          "clk",
+          "D_trigger_0/clk",
+          "D_trigger_2/clk"
+        ]
+      },
+      "getNOT_0_x": {
+        "ports": [
+          "getNOT_0/x",
+          "D_trigger_2/D"
+        ]
+      },
+      "getXOR_0_x": {
+        "ports": [
+          "getXOR_0/x",
+          "D_trigger_0/D"
+        ]
+      },
+      "RST_1": {
+        "ports": [
+          "RST",
+          "D_trigger_0/rst",
+          "D_trigger_2/rst"
+        ]
+      },
+      "D_trigger_2_Q": {
+        "ports": [
+          "D_trigger_2/Q",
+          "getXOR_0/y1",
+          "getNOT_0/y",
+          "getw_0/Q1"
+        ]
+      },
+      "D_trigger_0_Q": {
+        "ports": [
+          "D_trigger_0/Q",
+          "getXOR_0/y2",
+          "getw_0/Q2"
+        ]
+      }
+    }
+  }
+}
