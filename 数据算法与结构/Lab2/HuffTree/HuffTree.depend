@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1635138166 source:c:\users\langlang\desktop\哈工大学校\数据算法与结构\120l021905郎朗-实验2\hufftree\main.cpp
+	<iostream>
+	<iomanip>
+	<fstream>
+	<algorithm>
+	<cstring>
+

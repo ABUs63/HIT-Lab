@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1634084556 source:c:\users\langlang\desktop\哈工大学校\数据算法与结构\120l021905郎朗-实验1\calculator\main.cpp
+	<iostream>
+	<fstream>
+	<istream>
+	<cmath>
+

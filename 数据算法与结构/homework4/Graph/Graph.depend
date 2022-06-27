@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1635856561 source:c:\users\langlang\desktop\哈工大学校\数据算法与结构\120l021905郎朗-作业4\graph\main.cpp
+	<iostream>
+	<queue>
+	<stack>
+

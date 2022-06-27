@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1632665355 source:c:\users\langlang\desktop\哈工大学校\数据算法与结构\120l021905郎朗-作业2\linklist\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
