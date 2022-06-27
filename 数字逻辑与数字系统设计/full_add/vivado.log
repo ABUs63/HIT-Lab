@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sun Oct 17 17:12:48 2021
+# Process ID: 1672
+# Current directory: C:/Users/LANGLANG/Desktop/vivado/full_add
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15048 C:\Users\LANGLANG\Desktop\vivado\full_add\full_add.xpr
+# Log file: C:/Users/LANGLANG/Desktop/vivado/full_add/vivado.log
+# Journal file: C:/Users/LANGLANG/Desktop/vivado/full_add\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/LANGLANG/Desktop/vivado/full_add/full_add.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Vivado/2020.1/data/ip'.
+open_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:10 . Memory (MB): peak = 1036.227 ; gain = 0.000
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Oct 17 17:13:57 2021...

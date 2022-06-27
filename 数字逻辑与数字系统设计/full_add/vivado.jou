@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sun Oct 17 17:12:48 2021
+# Process ID: 1672
+# Current directory: C:/Users/LANGLANG/Desktop/vivado/full_add
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15048 C:\Users\LANGLANG\Desktop\vivado\full_add\full_add.xpr
+# Log file: C:/Users/LANGLANG/Desktop/vivado/full_add/vivado.log
+# Journal file: C:/Users/LANGLANG/Desktop/vivado/full_add\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/LANGLANG/Desktop/vivado/full_add/full_add.xpr
+update_compile_order -fileset sources_1

@@ -1,0 +1,91 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Sun Oct 24 11:13:18 2021
+| Host         : LANGLANG running 64-bit major release  (build 9200)
+| Command      : report_methodology -file flow_lab_methodology_drc_routed.rpt -pb flow_lab_methodology_drc_routed.pb -rpx flow_lab_methodology_drc_routed.rpx
+| Design       : flow_lab
+| Device       : xc7a35tcsg324-1
+| Speed File   : -1
+| Design State : Fully Routed
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 8
++--------+----------+------------------------------------------+------------+
+| Rule   | Severity | Description                              | Violations |
++--------+----------+------------------------------------------+------------+
+| XDCH-2 | Warning  | Same min and max delay values on IO port | 8          |
++--------+----------+------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+XDCH-2#1 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.000 ns has been defined on port 'led[0]' relative to clock clk_pin for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks *] 0.000 [get_ports -filter { NAME =~  "*" && DIRECTION == "OUT" }]
+C:/Users/LANGLANG/Desktop/vivado/langlang_flow_lab/langlang_flow_lab.srcs/constrs_1/new/top_xdc.xdc (Line: 23)
+Related violations: <none>
+
+XDCH-2#2 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.000 ns has been defined on port 'led[1]' relative to clock clk_pin for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks *] 0.000 [get_ports -filter { NAME =~  "*" && DIRECTION == "OUT" }]
+C:/Users/LANGLANG/Desktop/vivado/langlang_flow_lab/langlang_flow_lab.srcs/constrs_1/new/top_xdc.xdc (Line: 23)
+Related violations: <none>
+
+XDCH-2#3 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.000 ns has been defined on port 'led[2]' relative to clock clk_pin for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks *] 0.000 [get_ports -filter { NAME =~  "*" && DIRECTION == "OUT" }]
+C:/Users/LANGLANG/Desktop/vivado/langlang_flow_lab/langlang_flow_lab.srcs/constrs_1/new/top_xdc.xdc (Line: 23)
+Related violations: <none>
+
+XDCH-2#4 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.000 ns has been defined on port 'led[3]' relative to clock clk_pin for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks *] 0.000 [get_ports -filter { NAME =~  "*" && DIRECTION == "OUT" }]
+C:/Users/LANGLANG/Desktop/vivado/langlang_flow_lab/langlang_flow_lab.srcs/constrs_1/new/top_xdc.xdc (Line: 23)
+Related violations: <none>
+
+XDCH-2#5 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.000 ns has been defined on port 'led[4]' relative to clock clk_pin for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks *] 0.000 [get_ports -filter { NAME =~  "*" && DIRECTION == "OUT" }]
+C:/Users/LANGLANG/Desktop/vivado/langlang_flow_lab/langlang_flow_lab.srcs/constrs_1/new/top_xdc.xdc (Line: 23)
+Related violations: <none>
+
+XDCH-2#6 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.000 ns has been defined on port 'led[5]' relative to clock clk_pin for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks *] 0.000 [get_ports -filter { NAME =~  "*" && DIRECTION == "OUT" }]
+C:/Users/LANGLANG/Desktop/vivado/langlang_flow_lab/langlang_flow_lab.srcs/constrs_1/new/top_xdc.xdc (Line: 23)
+Related violations: <none>
+
+XDCH-2#7 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.000 ns has been defined on port 'led[6]' relative to clock clk_pin for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks *] 0.000 [get_ports -filter { NAME =~  "*" && DIRECTION == "OUT" }]
+C:/Users/LANGLANG/Desktop/vivado/langlang_flow_lab/langlang_flow_lab.srcs/constrs_1/new/top_xdc.xdc (Line: 23)
+Related violations: <none>
+
+XDCH-2#8 Warning
+Same min and max delay values on IO port  
+The same output delay of 0.000 ns has been defined on port 'led[7]' relative to clock clk_pin for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks *] 0.000 [get_ports -filter { NAME =~  "*" && DIRECTION == "OUT" }]
+C:/Users/LANGLANG/Desktop/vivado/langlang_flow_lab/langlang_flow_lab.srcs/constrs_1/new/top_xdc.xdc (Line: 23)
+Related violations: <none>
+
+

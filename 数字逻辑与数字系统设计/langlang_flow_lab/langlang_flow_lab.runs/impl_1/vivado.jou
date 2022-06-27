@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sun Oct 24 11:12:10 2021
+# Process ID: 4620
+# Current directory: C:/Users/LANGLANG/Desktop/vivado/langlang_flow_lab/langlang_flow_lab.runs/impl_1
+# Command line: vivado.exe -log flow_lab.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source flow_lab.tcl -notrace
+# Log file: C:/Users/LANGLANG/Desktop/vivado/langlang_flow_lab/langlang_flow_lab.runs/impl_1/flow_lab.vdi
+# Journal file: C:/Users/LANGLANG/Desktop/vivado/langlang_flow_lab/langlang_flow_lab.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source flow_lab.tcl -notrace
