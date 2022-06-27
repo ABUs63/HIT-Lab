@@ -1,0 +1,9 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+C:/Users/LANGLANG/Desktop/vivado/langlang_vote/langlang_vote.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+C:/Users/LANGLANG/Desktop/vivado/langlang_vote/langlang_vote.srcs/sim_1/new/test.v,1634652202,verilog,,,,test,,,,,,,,
+C:/Users/LANGLANG/Desktop/vivado/langlang_vote/langlang_vote.srcs/sources_1/new/choose1from8.v,1634714932,verilog,,C:/Users/LANGLANG/Desktop/vivado/langlang_vote/langlang_vote.srcs/sources_1/new/getBinary.v,,choose1from8,,,,,,,,
+C:/Users/LANGLANG/Desktop/vivado/langlang_vote/langlang_vote.srcs/sources_1/new/getBinary.v,1634715056,verilog,,C:/Users/LANGLANG/Desktop/vivado/langlang_vote/langlang_vote.srcs/sources_1/new/vote.v,,getBinary,,,,,,,,
+C:/Users/LANGLANG/Desktop/vivado/langlang_vote/langlang_vote.srcs/sources_1/new/vote.v,1634652157,verilog,,C:/Users/LANGLANG/Desktop/vivado/langlang_vote/langlang_vote.srcs/sim_1/new/test.v,,vote,,,,,,,,

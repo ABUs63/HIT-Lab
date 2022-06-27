@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../mode12.srcs/sources_1/new/jk_trigger.v" \
+"../../../../mode12.srcs/sources_1/new/mode12.v" \
+"../../../../mode12.srcs/sim_1/new/test.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

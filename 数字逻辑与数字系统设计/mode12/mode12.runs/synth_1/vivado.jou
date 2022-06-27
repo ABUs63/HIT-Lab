@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Oct 27 20:33:24 2021
+# Process ID: 10460
+# Current directory: C:/Users/LANGLANG/Desktop/vivado/mode12/mode12.runs/synth_1
+# Command line: vivado.exe -log mode12.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mode12.tcl
+# Log file: C:/Users/LANGLANG/Desktop/vivado/mode12/mode12.runs/synth_1/mode12.vds
+# Journal file: C:/Users/LANGLANG/Desktop/vivado/mode12/mode12.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source mode12.tcl -notrace
