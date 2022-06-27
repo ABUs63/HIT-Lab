@@ -1,0 +1,4 @@
+key为炸弹密码；
+main为fun4递归函数显示；
+对应视频为phase_1~phase_7；
+其他txt功能见其文件名
