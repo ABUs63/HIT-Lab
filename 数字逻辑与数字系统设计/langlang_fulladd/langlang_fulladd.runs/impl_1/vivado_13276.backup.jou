@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Fri Oct 22 22:41:16 2021
+# Process ID: 13276
+# Current directory: C:/Users/LANGLANG/Desktop/vivado/langlang_fulladd/langlang_fulladd.runs/impl_1
+# Command line: vivado.exe -log fulladd.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source fulladd.tcl -notrace
+# Log file: C:/Users/LANGLANG/Desktop/vivado/langlang_fulladd/langlang_fulladd.runs/impl_1/fulladd.vdi
+# Journal file: C:/Users/LANGLANG/Desktop/vivado/langlang_fulladd/langlang_fulladd.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source fulladd.tcl -notrace

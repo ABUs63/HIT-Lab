@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcsg324-1" LaunchTime="1635246675">
+  <File Type="ROUTE-PWR" Name="jk_trigger_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="jk_trigger.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="jk_trigger_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="jk_trigger_reports.tcl"/>
+  <File Type="BITSTR-MSK" Name="jk_trigger.msk"/>
+  <File Type="ROUTE-CLK" Name="jk_trigger_clock_utilization_routed.rpt"/>
+  <File Type="RDI-RDI" Name="jk_trigger.vdi"/>
+  <File Type="BG-BIT" Name="jk_trigger.bit"/>
+  <File Type="BG-DRC" Name="jk_trigger.drc"/>
+  <File Type="BG-BGN" Name="jk_trigger.bgn"/>
+  <File Type="BG-BIN" Name="jk_trigger.bin"/>
+  <File Type="BITSTR-RBT" Name="jk_trigger.rbt"/>
+  <File Type="BITSTR-NKY" Name="jk_trigger.nky"/>
+  <File Type="BITSTR-BMM" Name="jk_trigger_bd.bmm"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="jk_trigger_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MMI" Name="jk_trigger.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="jk_trigger.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="jk_trigger.ltx"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="OPT-DRC" Name="jk_trigger_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="jk_trigger.hwdef"/>
+  <File Type="PLACE-IO" Name="jk_trigger_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="jk_trigger_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="jk_trigger_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="jk_trigger_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="jk_trigger_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-DRC" Name="jk_trigger_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="jk_trigger_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="jk_trigger_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="jk_trigger_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="jk_trigger_route_status.pb"/>
+  <File Type="ROUTE-DCP" Name="jk_trigger_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="jk_trigger_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="jk_trigger_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="jk_trigger_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="jk_trigger_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="jk_trigger_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW" Name="jk_trigger_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="jk_trigger_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="jk_trigger_bus_skew_routed.rpx"/>
+  <File Type="OPT-DCP" Name="jk_trigger_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="jk_trigger_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="jk_trigger_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="jk_trigger_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="jk_trigger_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="jk_trigger_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="jk_trigger_postroute_physopt_bb.dcp"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="jk_trigger_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="jk_trigger_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="jk_trigger_methodology_drc_routed.rpx"/>
+  <File Type="PDI-FILE" Name="jk_trigger.pdi"/>
+  <File Type="RCFI_FILE" Name="jk_trigger.rcfi"/>
+  <File Type="CFI_FILE" Name="jk_trigger.cfi"/>
+  <File Type="RNPI_FILE" Name="jk_trigger.rnpi"/>
+  <File Type="NPI_FILE" Name="jk_trigger.npi"/>
+  <File Type="RBD_FILE" Name="jk_trigger.rbd"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/jk_trigger.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/component.xml">
+      <FileInfo SFType="IPXACT"/>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="jk_trigger"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
+  </Strategy>
+</GenRun>

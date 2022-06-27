@@ -1,0 +1,10 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+C:/Users/LANGLANG/Desktop/vivado/langlang_fulladd/langlang_fulladd.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+C:/Users/LANGLANG/Desktop/vivado/langlang_fulladd/langlang_fulladd.srcs/sim_1/new/test.v,1634651054,verilog,,,,test,,,,,,,,
+C:/Users/LANGLANG/Desktop/vivado/langlang_fulladd/langlang_fulladd.srcs/sources_1/ip/iphalf_add/sim/iphalf_add.v,1634828294,verilog,,C:/Users/LANGLANG/Desktop/vivado/langlang_fulladd/langlang_fulladd.srcs/sources_1/new/fulladd.v,,iphalf_add,,,,,,,,
+C:/Users/LANGLANG/Desktop/vivado/langlang_fulladd/langlang_fulladd.srcs/sources_1/ip/iphalf_add/sources_1/new/half_add.v,1634828294,verilog,,C:/Users/LANGLANG/Desktop/vivado/langlang_fulladd/langlang_fulladd.srcs/sources_1/ip/iphalf_add/sim/iphalf_add.v,,half_add,,,,,,,,
+C:/Users/LANGLANG/Desktop/vivado/langlang_fulladd/langlang_fulladd.srcs/sources_1/new/fulladd.v,1634828392,verilog,,C:/Users/LANGLANG/Desktop/vivado/langlang_fulladd/langlang_fulladd.srcs/sim_1/new/test.v,,fulladd,,,,,,,,
+C:/Users/LANGLANG/Desktop/vivado/langlang_fulladd/langlang_fulladd.srcs/sources_1/new/halfadd.v,1634650630,verilog,,C:/Users/LANGLANG/Desktop/vivado/langlang_fulladd/langlang_fulladd.srcs/sim_1/new/test.v,,halfadd,,,,,,,,

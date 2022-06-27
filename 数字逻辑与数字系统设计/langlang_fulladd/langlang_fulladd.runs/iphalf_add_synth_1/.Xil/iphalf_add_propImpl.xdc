@@ -1,0 +1,10 @@
+set_property SRC_FILE_INFO {cfile:c:/Users/LANGLANG/Desktop/vivado/langlang_fulladd/langlang_fulladd.srcs/sources_1/ip/iphalf_add/constrs_1/new/top_xdc.xdc rfile:../../../langlang_fulladd.srcs/sources_1/ip/iphalf_add/constrs_1/new/top_xdc.xdc id:1 order:EARLY scoped_inst:inst} [current_design]
+current_instance inst
+set_property src_info {type:SCOPED_XDC file:1 line:1 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN R11 [get_ports a]
+set_property src_info {type:SCOPED_XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN V1 [get_ports b]
+set_property src_info {type:SCOPED_XDC file:1 line:3 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN F6 [get_ports c]
+set_property src_info {type:SCOPED_XDC file:1 line:4 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN G4 [get_ports d]

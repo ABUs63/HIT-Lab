@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu Oct 21 22:58:21 2021
+# Process ID: 5056
+# Current directory: C:/Users/LANGLANG/Desktop/vivado/langlang_fulladd/langlang_fulladd.runs/iphalf_add_synth_1
+# Command line: vivado.exe -log iphalf_add.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source iphalf_add.tcl
+# Log file: C:/Users/LANGLANG/Desktop/vivado/langlang_fulladd/langlang_fulladd.runs/iphalf_add_synth_1/iphalf_add.vds
+# Journal file: C:/Users/LANGLANG/Desktop/vivado/langlang_fulladd/langlang_fulladd.runs/iphalf_add_synth_1\vivado.jou
+#-----------------------------------------------------------
+source iphalf_add.tcl -notrace

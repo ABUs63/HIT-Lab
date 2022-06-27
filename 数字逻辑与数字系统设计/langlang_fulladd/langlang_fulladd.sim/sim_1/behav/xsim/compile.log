@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/LANGLANG/Desktop/vivado/langlang_fulladd/langlang_fulladd.srcs/sources_1/ip/iphalf_add/sources_1/new/half_add.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module half_add
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/LANGLANG/Desktop/vivado/langlang_fulladd/langlang_fulladd.srcs/sources_1/ip/iphalf_add/sim/iphalf_add.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module iphalf_add
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/LANGLANG/Desktop/vivado/langlang_fulladd/langlang_fulladd.srcs/sources_1/new/fulladd.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fulladd
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/LANGLANG/Desktop/vivado/langlang_fulladd/langlang_fulladd.srcs/sim_1/new/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcsg324-1" LaunchTime="1634913666">
+  <File Type="BITSTR-BMM" Name="fulladd_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="fulladd_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="fulladd_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="fulladd_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="fulladd.tcl"/>
+  <File Type="OPT-TIMING" Name="fulladd_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="fulladd_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="fulladd_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="fulladd_reports.tcl"/>
+  <File Type="OPT-DRC" Name="fulladd_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="fulladd.hwdef"/>
+  <File Type="PWROPT-DCP" Name="fulladd_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="fulladd_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="fulladd_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="fulladd_placed.dcp"/>
+  <File Type="PLACE-IO" Name="fulladd_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="fulladd_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="fulladd_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="fulladd_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="fulladd_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="fulladd_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="fulladd_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="fulladd_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="fulladd_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="fulladd.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="fulladd_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="fulladd_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="fulladd_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="fulladd.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="fulladd_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="fulladd_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="fulladd_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="fulladd_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="fulladd_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="fulladd_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="fulladd_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="fulladd.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="fulladd_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="fulladd_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="fulladd_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="fulladd_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="fulladd_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="fulladd_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="fulladd_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="fulladd_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="fulladd_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="fulladd_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="fulladd_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="fulladd_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="fulladd_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="fulladd_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="fulladd_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="fulladd_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="fulladd_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="fulladd_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="fulladd_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="fulladd_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="fulladd_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="fulladd.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="fulladd_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="fulladd.rbt"/>
+  <File Type="BITSTR-NKY" Name="fulladd.nky"/>
+  <File Type="PDI-FILE" Name="fulladd.pdi"/>
+  <File Type="RCFI_FILE" Name="fulladd.rcfi"/>
+  <File Type="CFI_FILE" Name="fulladd.cfi"/>
+  <File Type="RNPI_FILE" Name="fulladd.rnpi"/>
+  <File Type="NPI_FILE" Name="fulladd.npi"/>
+  <File Type="RBD_FILE" Name="fulladd.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="fulladd.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="fulladd.sysdef"/>
+  <File Type="BG-BGN" Name="fulladd.bgn"/>
+  <File Type="BG-DRC" Name="fulladd.drc"/>
+  <File Type="RDI-RDI" Name="fulladd.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/fulladd.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/halfadd.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/component.xml">
+      <FileInfo SFType="IPXACT"/>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="fulladd"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/top_xdc.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/top_xdc.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream">
+      <Option Id="BinFile">1</Option>
+    </Step>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="iphalf_add"/>
+</GenRun>
