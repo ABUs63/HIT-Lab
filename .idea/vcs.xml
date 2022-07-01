@@ -2,5 +2,9 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/软件构造/HIT-Lab1-120L021905" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/软件构造/HIT-Lab2-120L021905" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/软件构造/HIT-Lab3-120L021905" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/软件构造/HIT-Lab3-120L021905-origin" vcs="Git" />
   </component>
 </project>
